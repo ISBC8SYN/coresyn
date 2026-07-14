@@ -22,30 +22,25 @@ Generated on 2026-07-14.
   - Browser/search access did not return a usable public profile body in this environment.
   - The LinkedIn URL is included as a profile link only. No claims were derived from inaccessible LinkedIn content.
 
-## GitHub Push Status
+## GitHub Publish Status
 
 Target remote requested:
 
 `git@github.com:ISBC8SYN/coresyn.git`
 
-GitHub host verification was fixed by appending GitHub's official SSH host key entries to `C:\Users\johar\.ssh\known_hosts` from GitHub Docs. Clone and push were still blocked because GitHub rejected the available local SSH key:
+Local SSH clone/push was blocked because GitHub rejected the available local SSH key:
 
 `git@github.com: Permission denied (publickey).`
 
-The local repository was staged under:
+The files were successfully published to `ISBC8SYN/coresyn` on branch `main` through the connected GitHub app, which had push permission for the repository.
+
+A local standalone repo was also staged under:
 
 `E:\gitrepos\AxMule\coresyn`
 
-Remote is intended to be configured as:
+Local commit:
 
-`origin git@github.com:ISBC8SYN/coresyn.git`
-
-Once a GitHub-authorized SSH key or credential is available, push can be completed with:
-
-```powershell
-cd E:\gitrepos\AxMule\coresyn
-git push -u origin main
-```
+`af71e70 Add Joshua Harris resume package`
 
 ## External Host-Key Reference
 
